@@ -1,0 +1,22 @@
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Don't commit lib files
+**/lib/**/*
+**/build/**/*
+**/dist/**/*
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+cdk.context.json
+
+# env vars
+.envrc
+.envrc.ps1
